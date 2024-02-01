@@ -5,6 +5,7 @@ This project impliments a Mongodb database in the backend running on Node.JS.
 The front end is handled with React, the framework I utilize throughout the application is axios, and I interface with the Spotify API. 
 
 The purpose of this web application is to allow users to:
+
     1. Login with their spotify account
     2. Search through the Spotify db for different artists
     3. Display information that isn't commony accessable about the artists
