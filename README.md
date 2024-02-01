@@ -36,32 +36,26 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Application Details
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project impliments a Mongodb database in the backend running on
+Node.JS. The front end is handled with React, and the framework I utilize
+throughout the application is axios and the Spotify API. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The purpose of this web application is to allow users to:
+    1. Login with their spotify account
+    2. Search through the Spotify DB for different artists
+    3. Display information that isn't commony accessable about the artists
+        including their follower count, popularity index, and main genre.
+    
+The webpages I utilize are a DB log page (in the backend) and a react component
+page on the front end that responds to user input.
 
-### Code Splitting
+The Database stores a log of the user IDs of the individuals who have accessed
+this webpage and successfully logged in. The Database runs on port 5000 and the 
+front end on port 3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If there are any questions or concerns, you can reach me at rpsdfv@umsystem.edu
+or via my cell (314)706-2257.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+NOTE: THIS APPLICATION ONLY WORKS IF YOU HAVE A VALID SPOTIFY ACCOUNT
