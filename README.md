@@ -1,8 +1,8 @@
 ## Application Details
 
-This project impliments a Mongodb database in the backend running on
-Node.JS. The front end is handled with React, the framework I utilize
-throughout the application is axios, and I interface with the Spotify API. 
+This project impliments a Mongodb database in the backend running on Node.JS. 
+
+The front end is handled with React, the framework I utilize throughout the application is axios, and I interface with the Spotify API. 
 
 The purpose of this web application is to allow users to:
     1. Login with their spotify account
@@ -10,14 +10,15 @@ The purpose of this web application is to allow users to:
     3. Display information that isn't commony accessable about the artists
         including their follower count, popularity index, and main genre.
     
-The webpages I utilize are a DB log page (in the backend) and a react component
-page on the front end that responds to user input.
+The webpages I utilize are a DB log page (in the backend) and a react component page on the front end that responds to user input.
 
-The Database stores a log of the user IDs of the individuals who have accessed
-this webpage and successfully logged in. The Database runs locally on port 5000 and the 
-front end locally on port 3000.
+The Database stores a log of the user IDs of the individuals who have accessed this webpage and successfully logged in. 
 
-NOTE: THIS APPLICATION ONLY WORKS IF YOU HAVE A VALID SPOTIFY ACCOUNT AND ALL NODE FILES HAVE BEEN REMOVED DUE TO SIZE. INSERT BACKEND AND SRC INTO FRESH BUILD WITH APPROPRIATE REFERENCES.
+The Database runs locally on port 5000 and the front end locally on port 3000.
+
+NOTE: THIS APPLICATION ONLY WORKS IF YOU HAVE A VALID SPOTIFY ACCOUNT. 
+
+NOTE: ALL NODE FILES HAVE BEEN REMOVED DUE TO SIZE. INSERT BACKEND AND SRC INTO FRESH BUILD WITH APPROPRIATE REFERENCES.
 
 ## Available Scripts
 
