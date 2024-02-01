@@ -52,10 +52,7 @@ The webpages I utilize are a DB log page (in the backend) and a react component
 page on the front end that responds to user input.
 
 The Database stores a log of the user IDs of the individuals who have accessed
-this webpage and successfully logged in. The Database runs on port 5000 and the 
-front end on port 3000.
-
-If there are any questions or concerns, you can reach me at rpsdfv@umsystem.edu
-or via my cell (314)706-2257.
+this webpage and successfully logged in. The Database runs locally on port 5000 and the 
+front end locally on port 3000.
 
 NOTE: THIS APPLICATION ONLY WORKS IF YOU HAVE A VALID SPOTIFY ACCOUNT
